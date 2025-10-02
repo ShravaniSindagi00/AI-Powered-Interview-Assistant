@@ -1,0 +1,171 @@
+# ====================
+# Node.js Dependencies
+# ====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ====================
+# Build Outputs
+# ====================
+dist/
+build/
+.next/
+out/
+
+# ====================
+# Environment Variables
+# ====================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Keep example env file for reference
+!.env.example
+
+# ====================
+# IDE and Editor Files
+# ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ====================
+# OS Generated Files
+# ====================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ====================
+# Logs
+# ====================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ====================
+# Runtime Data
+# ====================
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ====================
+# Coverage and Testing
+# ====================
+coverage/
+.nyc_output/
+.coverage/
+*.lcov
+.jest/
+
+# ====================
+# Temporary Files
+# ====================
+.tmp/
+.temp/
+*.tmp
+*.temp
+
+# ====================
+# Database Files (if using local DB)
+# ====================
+*.db
+*.sqlite
+*.sqlite3
+
+# ====================
+# TypeScript
+# ====================
+*.tsbuildinfo
+
+# ====================
+# Vite (Frontend Build Tool)
+# ====================
+.vite/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# ====================
+# React/Frontend Specific
+# ====================
+.eslintcache
+
+# ====================
+# Package Manager Lock Files (keep one)
+# ====================
+# Uncomment the one you want to ignore:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ====================
+# Deployment and Production
+# ====================
+.vercel/
+.netlify/
+.firebase/
+
+# ====================
+# AI Interview App Specific
+# ====================
+# Uploaded resume files (if stored locally)
+uploads/
+resumes/
+
+# Generated interview reports
+reports/
+exports/
+
+# Session data (if stored as files)
+sessions/
+
+# ====================
+# Security and Sensitive Data
+# ====================
+# API keys and secrets
+secrets/
+keys/
+certificates/
+*.pem
+*.key
+*.crt
+
+# MongoDB local data (if running local instance)
+data/
+mongodb/
+
+# ====================
+# Development Tools
+# ====================
+.cache/
+.parcel-cache/
+.turbo/
+
+# ====================
+# Documentation Build
+# ====================
+docs/build/
+.docusaurus/
+
+# ====================
+# Miscellaneous
+# ====================
+*.tgz
+*.tar.gz
