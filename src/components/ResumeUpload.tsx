@@ -9,7 +9,8 @@ import * as api from '../services/api'
 import { getDocument, GlobalWorkerOptions } from 'pdfjs-dist'
 
 // Configure PDF.js worker - using CDN for reliability
-GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.269/pdf.worker.min.js'
+GlobalWorkerOptions.workerSrc =
+  'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.269/pdf.worker.min.js'
 
 interface ResumeUploadProps {
   onResumeProcessed: (data: {
