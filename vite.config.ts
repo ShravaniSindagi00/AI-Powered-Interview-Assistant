@@ -52,6 +52,17 @@
     build: {
       target: 'esnext',
       outDir: 'build',
+      rollupOptions: {
+        external: [],
+        output: {
+          manualChunks: {
+            'pdfjs-dist': ['pdfjs-dist']
+          }
+        }
+      }
+    },
+    optimizeDeps: {
+      include: ['pdfjs-dist']
     },
     server: {
       port: 3000,
